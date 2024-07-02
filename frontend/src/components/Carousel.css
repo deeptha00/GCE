@@ -1,0 +1,75 @@
+/* Carousel.css */
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #D9E4C1;
+  }
+  
+  .slick-arrow {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3C6E1F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: -50px;
+  }
+  
+  .slick-next {
+    right: -50px;
+  }
+  
+  .slide-container {
+    padding: 0 10px;
+    width: 100%;
+    background-color: #D9E4C1; /* Background color for each slide */
+    border-radius: 10px; /* Rounded corners for the slide */
+    margin: 10px; /* Space between slides */
+  }
+  
+  .slide {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .slide h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .slide p {
+    font-size: 1rem;
+    background-color: #D9E4C1;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .slide a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #D9E4C1;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .slide a::after {
+    content: '›';
+    margin-left: 5px;
+  }
+  
+  .slide a:hover {
+    text-decoration: underline;
+  }
+  

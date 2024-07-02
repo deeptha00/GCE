@@ -1,0 +1,64 @@
+.sponsors {
+  margin: 50px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.sponsors h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.sponsor-box {
+  position: relative;
+  background-color: #e8f5e9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sponsor-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+.content-box {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.website-link {
+  margin: 10px 0;
+}
+
+.join-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: #45a049;
+}
